@@ -1,6 +1,13 @@
 # Pixel Forge
 
-# Professional pixel art editor with intuitive controls for creating stunning digital artwork.
+![PixelForge](https://img.shields.io/badge/PixelForge-Pixel%20Art%20Editor-purple?style=for-the-badge)
+![Live Demo](https://img.shields.io/badge/Live%20Demo-pixelforge.thinkpixel.org-blue?style=for-the-badge&logo=web)
+![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Vamp415/Pixel-Art-Generator?style=for-the-badge&logo=github)
+
+**Topics**: pixel-art, pixel-editor, online-editor, sprite-editor, retro-art, game-development, web-app, pwa, javascript, html5, css3, browser-based, touch-enabled, responsive-design, creative-tools, digital-art
+
+Professional pixel art editor with intuitive controls for creating stunning digital artwork.
 
 # Product Type
 
@@ -24,6 +31,113 @@ Static Web Application - Client-side pixel art editor built with pure HTML, CSS,
 
 Created by Hardik Saxena, Powered by Think Pixel. All rights reserved.
 
+# Roadmap
+
+## Planned Features
+- [ ] Animation support for creating pixel art animations
+- [ ] Layer system for complex artwork
+- [ ] Export to multiple formats (PNG, GIF, SVG)
+- [ ] Undo/Redo functionality
+- [ ] Custom palette management
+- [ ] Grid overlay toggle
+- [ ] Zoom and pan controls
+- [ ] Keyboard shortcuts
+- [ ] Dark/Light theme toggle
+- [ ] User account system for saving projects
+- [ ] Community gallery for sharing artwork
+- [ ] Tutorial system for beginners
+
+# Contributing
+
+We welcome contributions to PixelForge! Here's how you can help:
+
+## How to Contribute
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## Contribution Guidelines
+- Follow the existing code style
+- Add comments for complex logic
+- Test your changes thoroughly
+- Update documentation as needed
+- Be respectful in all communications
+
+# Changelog
+
+## Version 1.0.0 (2026-08-03)
+- Initial release
+- Core pixel art editor functionality
+- Customizable grid system (1x1 to 35x35)
+- Color picker with millions of colors
+- Paint and erase tools
+- Touch support for mobile devices
+- Modern gradient-based UI
+- Responsive design
+- SEO optimization
+- PWA support
+- Accessibility enhancements
+
+# FAQ
+
+## Frequently Asked Questions
+
+### What is PixelForge?
+PixelForge is a free online pixel art editor that allows you to create stunning pixel art designs directly in your browser. It's perfect for artists, game developers, and creators who want to design sprites, retro game assets, and pixel illustrations.
+
+### How do I create pixel art?
+1. Set your grid size using the width and height sliders
+2. Click "Create Grid" to generate your canvas
+3. Choose a color using the color picker
+4. Click or drag on the grid to paint pixels
+5. Use the Erase tool to correct mistakes
+6. Switch back to Paint tool to continue drawing
+
+### Is PixelForge really free?
+Yes! PixelForge is completely free to use with no hidden costs, subscriptions, or account requirements. Just visit the website and start creating.
+
+### Does PixelForge work on mobile?
+Yes, PixelForge is fully responsive and supports touch interactions, making it work seamlessly on smartphones and tablets.
+
+### Can I save my artwork?
+Currently, you can save your artwork by taking screenshots. We're working on adding export functionality in future updates.
+
+### What's the maximum grid size?
+The current maximum grid size is 35x35 pixels. This provides a good balance between detail and performance.
+
+### Can I use PixelForge offline?
+PixelForge requires an internet connection to load initially, but once loaded, it works offline as a Progressive Web App (PWA).
+
+### Is my data private?
+PixelForge doesn't collect or store any personal data. All your artwork is created locally in your browser and is not transmitted to any servers.
+
+### Can I use PixelForge for commercial projects?
+Yes, you can use PixelForge for both personal and commercial projects. The artwork you create is yours to use as you wish.
+
+### How do I report bugs or request features?
+You can report bugs and request features by:
+- Emailing contact.hardik@thinkpixel.org
+- Opening an issue on GitHub
+- Using the feedback form in the footer
+
+### Who created PixelForge?
+PixelForge was created by Hardik Saxena and is powered by Think Pixel, a creative technology organization.
+
+# Screenshots
+
+## Main Interface
+![PixelForge Main Interface](https://pixelforge.thinkpixel.org/logo.png)
+
+## Features
+- Customizable grid system (1x1 to 35x35 pixels)
+- Advanced color picker with millions of colors
+- Touch-enabled drawing for mobile devices
+- Intuitive paint and erase tools
+- Modern gradient-based UI design
+- Responsive layout for all screen sizes
+
 # Tech Stack Badges
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -44,6 +158,30 @@ Pixel Forge is a professional-grade pixel art editor that runs entirely in the b
 - **Educators** - Teaching digital art and design principles
 - **Content Creators** - Creating artwork for social media and digital platforms
 - **Retro Enthusiasts** - Fans of pixel art and retro gaming aesthetics
+
+# Why PixelForge?
+
+PixelForge stands out among pixel art editors for several reasons:
+
+- **Completely Free**: No subscriptions, no hidden costs, no account required
+- **Browser-Based**: Works instantly in any modern browser without installation
+- **Mobile Friendly**: Full touch support for creating pixel art on tablets and smartphones
+- **Modern UI**: Beautiful gradient-based design with smooth animations
+- **Lightweight**: Fast loading with no bloat or unnecessary features
+- **Easy Export**: Simple workflow to save and share your creations
+
+## Feature Comparison
+
+| Feature | PixelForge | Aseprite | Piskel | Photoshop |
+|---------|-----------|----------|--------|-----------|
+| **Price** | Free | $20 | Free | $20+/month |
+| **Browser-Based** | ✅ Yes | ❌ No | ✅ Yes | ❌ No |
+| **Mobile Support** | ✅ Yes | ❌ No | ⚠️ Limited | ❌ No |
+| **Installation** | None Required | Required | None Required | Required |
+| **Learning Curve** | Easy | Medium | Easy | Hard |
+| **Grid Size** | Up to 35x35 | Unlimited | Unlimited | Unlimited |
+| **Touch Support** | ✅ Native | ❌ No | ⚠️ Basic | ❌ No |
+| **Modern UI** | ✅ Yes | ⚠️ Retro | ✅ Yes | ✅ Yes |
 
 # Problem Statement
 
