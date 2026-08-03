@@ -5,35 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Pixel Art Generator | OG VAMP</title>
+    <link rel="icon" type="image/png" href="favicon-logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <title>Pixel Forge</title>
   </head>
 
   <body>
-    <div class="wrapper">
-      <div class="options">
-        <div class="opt-wrapper">
-          <div class="slider">
-            <label for="width-range">Grid Width</label>
-            <input type="range" id="width-range" min="1" max="35" />
-            <span id="width-value">00</span>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <img src="logo.png" alt="Pixel Forge Logo" class="nav-logo" />
+          <span class="nav-title">Pixel Forge</span>
+        </div>
+        <button class="nav-toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#home" class="nav-link">Tool</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title">Create Stunning Pixel Art</h1>
+          <p class="hero-subtitle">Professional pixel art editor with intuitive controls. Design, create, and export your artwork with ease.</p>
+          <button class="hero-cta" id="start-creating">Start Creating</button>
+        </div>
+      </section>
+
+      <section id="home" class="section">
+        <div class="wrapper">
+          <div class="options">
+            <div class="opt-wrapper">
+              <div class="slider">
+                <label for="width-range">Grid Width</label>
+                <input type="range" id="width-range" min="1" max="35" />
+                <span id="width-value">00</span>
+              </div>
+              <div class="slider">
+                <label for="height-range">Grid Height</label>
+                <input type="range" id="height-range" min="1" max="35" />
+                <span id="height-value">00</span>
+              </div>
+            </div>
+
+            <div class="opt-wrapper">
+              <button id="submit-grid">Create Grid</button>
+              <button id="clear-grid">Clear Grid</button>
+              <input type="color" id="color-input" />
+              <button id="erase-btn">Erase</button>
+              <button id="paint-btn">Paint</button>
+            </div>
           </div>
-          <div class="slider">
-            <label for="height-range">Grid Height</label>
-            <input type="range" id="height-range" min="1" max="35" />
-            <span id="height-value">00</span>
+          <div class="container"></div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-content">
+          <h2>About Pixel Forge</h2>
+          <p>Pixel Forge is a powerful and intuitive pixel art generator that allows you to create stunning pixel art designs with ease. Whether you're a professional artist or just starting out, our tool provides everything you need to bring your creative visions to life.</p>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="section-content">
+          <h2>Features</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <i class="fas fa-th"></i>
+              <h3>Customizable Grid</h3>
+              <p>Create grids of any size up to 35x35 pixels</p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-palette"></i>
+              <h3>Color Picker</h3>
+              <p>Choose from millions of colors for your artwork</p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-eraser"></i>
+              <h3>Erase Tool</h3>
+              <p>Easy erase functionality to correct mistakes</p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Touch Support</h3>
+              <p>Works seamlessly on both desktop and mobile devices</p>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="opt-wrapper">
-          <button id="submit-grid">Create Grid</button>
-          <button id="clear-grid">Clear Grid</button>
-          <input type="color" id="color-input" />
-          <button id="erase-btn">Erase</button>
-          <button id="paint-btn">Paint</button>
+      <section id="contact" class="section">
+        <div class="section-content">
+          <h2>Contact</h2>
+          <p>Get in touch with the creator for questions, feedback, or collaborations.</p>
+          <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> contact.hardik@thinkpixel.org</p>
+            <p><i class="fas fa-globe"></i> <a href="https://hardik.thinkpixel.org/" target="_blank">hardik.thinkpixel.org</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Hardik Saxena</h3>
+          <p class="footer-email">contact.hardik@thinkpixel.org</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/hardik-saxena-77b354271" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/_og.vamp_/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://github.com/Vamp415" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://discord.gg/NKj5jRrTjP" target="_blank" title="Discord"><i class="fab fa-discord"></i> Discord</a>
+            <a href="https://x.com/hardiks57184721?s=21" target="_blank" title="X"><i class="fab fa-x-twitter"></i> X</a>
+            <a href="https://buymeacoffee.com/vamp415" target="_blank" title="Buy Me a Coffee"><i class="fas fa-coffee"></i> Buy Me a Coffee</a>
+            <a href="https://topmate.io/hardik_saxena_001/" target="_blank" title="Topmate"><i class="fas fa-calendar"></i> Topmate</a>
+            <a href="https://www.facebook.com/hardik.saxena.12327" target="_blank" title="Facebook"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://snapchat.com/t/uFZfqlnB" target="_blank" title="Snapchat"><i class="fab fa-snapchat"></i> Snapchat</a>
+            <a href="https://linktr.ee/hardik_saxena" target="_blank" title="Linktree"><i class="fas fa-link"></i> Linktree</a>
+            <a href="https://open.spotify.com/user/31l62rpqwbbawz3xdq2bv37vnfma" target="_blank" title="Spotify"><i class="fab fa-spotify"></i> Spotify</a>
+            <a href="https://leetcode.com/u/vchs415/" target="_blank" title="Leetcode"><i class="fas fa-code"></i> Leetcode</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Powered by Think Pixel</h3>
+          <p class="footer-email">contact@thinkpixel.org</p>
+          <a href="https://www.thinkpixel.org/" target="_blank" class="footer-site">www.thinkpixel.org</a>
+          <div class="social-links">
+            <a href="https://chat.whatsapp.com/LMYbdJ5i2zuCKCwtoOh6kU" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://www.linkedin.com/company/thinkpixeledu/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/_think.pixel_/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://t.me/thinkpixeledu" target="_blank" title="Telegram"><i class="fab fa-telegram"></i> Telegram</a>
+            <a href="https://youtube.com/@thinkpixel-x9c" target="_blank" title="YouTube"><i class="fab fa-youtube"></i> YouTube</a>
+            <a href="https://forms.gle/W3WEVdkmm3YSvbZi6" target="_blank" title="Google Form"><i class="fab fa-google"></i> Feedback Form</a>
+            <a href="https://buymeacoffee.com/vamp415" target="_blank" title="Buy Me a Coffee"><i class="fas fa-coffee"></i> Buy Me a Coffee</a>
+            <a href="https://topmate.io/hardik_saxena_001/" target="_blank" title="Topmate"><i class="fas fa-calendar"></i> Topmate</a>
+            <a href="https://linktr.ee/think_pixel" target="_blank" title="Linktree"><i class="fas fa-link"></i> Linktree</a>
+          </div>
         </div>
       </div>
-      <div class="container"></div>
-    </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026, Created by Hardik Saxena, Powered by Think Pixel, All rights reserved.</p>
+      </div>
+    </footer>
 
     <script src="index.js"></script>
   </body>
